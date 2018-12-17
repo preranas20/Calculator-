@@ -9,3 +9,6 @@ Application checks for special cases no numbers entered, invalid numbers and div
 Auto layout is used to configure the layout such that it matches in potrait and landcape mode.
 
 [![Screen-Shot-2018-12-17-at-2-18-20-PM.png](https://i.postimg.cc/Y9Tpjvfh/Screen-Shot-2018-12-17-at-2-18-20-PM.png)](https://postimg.cc/qhXf5MFT)
+
+
+[![Screen-Shot-2018-12-17-at-2-21-54-PM.png](https://i.postimg.cc/x8Q4sY96/Screen-Shot-2018-12-17-at-2-21-54-PM.png)](https://postimg.cc/9RxbM6R9)
