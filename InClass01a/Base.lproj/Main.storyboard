@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,26 +14,26 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InClass01a" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="K0c-gM-nHZ">
-                                <rect key="frame" x="55" y="45" width="265" height="328.5"/>
+                                <rect key="frame" x="55" y="25" width="557" height="328.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter First Number" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="HGY-Aq-e8c">
-                                        <rect key="frame" x="20" y="0.0" width="225" height="30"/>
+                                        <rect key="frame" x="20" y="0.0" width="517" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Second Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="89h-SI-2KX">
-                                        <rect key="frame" x="20" y="44" width="225" height="30"/>
+                                        <rect key="frame" x="20" y="44" width="517" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="yH4-4U-2ac">
-                                        <rect key="frame" x="85" y="88" width="95" height="20.5"/>
+                                        <rect key="frame" x="231" y="88" width="95" height="20.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QzJ-PN-Wyh">
                                                 <rect key="frame" x="0.0" y="0.0" width="52.5" height="20.5"/>
@@ -50,35 +50,35 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38i-Gp-UjD">
-                                        <rect key="frame" x="117.5" y="122.5" width="30" height="30"/>
+                                        <rect key="frame" x="263.5" y="122.5" width="30" height="30"/>
                                         <state key="normal" title="Add"/>
                                         <connections>
                                             <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3s9-89-i3x"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iq-Qq-OIG">
-                                        <rect key="frame" x="102.5" y="166.5" width="60" height="30"/>
+                                        <rect key="frame" x="248.5" y="166.5" width="60" height="30"/>
                                         <state key="normal" title="Subtract"/>
                                         <connections>
                                             <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhI-Ci-pgV"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljJ-C8-MQD">
-                                        <rect key="frame" x="105.5" y="210.5" width="54" height="30"/>
+                                        <rect key="frame" x="251.5" y="210.5" width="54" height="30"/>
                                         <state key="normal" title="Multiply"/>
                                         <connections>
                                             <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jmf-Oj-yBU"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEZ-M8-uoQ">
-                                        <rect key="frame" x="111" y="254.5" width="43" height="30"/>
+                                        <rect key="frame" x="257" y="254.5" width="43" height="30"/>
                                         <state key="normal" title="Divide"/>
                                         <connections>
                                             <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mYM-FT-BoL"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwM-cr-JfD">
-                                        <rect key="frame" x="104" y="298.5" width="57" height="30"/>
+                                        <rect key="frame" x="250" y="298.5" width="57" height="30"/>
                                         <state key="normal" title="Clear All"/>
                                         <connections>
                                             <action selector="btnClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GIi-zk-vHl"/>
